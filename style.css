@@ -1,0 +1,53 @@
+.sec-1 {
+    background-image: url("/images/FC-1.jpg");
+}
+
+.title-container {
+    color: white;
+    text-align: center;
+}
+
+.fc-title {
+    font-weight: 600;
+}
+
+.display-1 {
+    font-size: calc(1.725rem + 5.7vw);
+}
+
+.join-group {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.pic3 {
+    background-image: url("/images/FC-3.jpg");
+    background-repeat: no-repeat;
+}
+
+.pic4 {
+    background-image: url("/images/FC-4.jpg");
+    background-repeat: no-repeat;
+}
+
+.pic5 {
+     background-image: url("/images/FC-5.jpg");
+    background-repeat: no-repeat;
+ }
+
+.pic6 {
+    background-image: url("/images/FC-6.jpg");
+    background-repeat: no-repeat;
+}
+
+.footer{
+    background: #888888;
+    color: #FFFFFF;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}

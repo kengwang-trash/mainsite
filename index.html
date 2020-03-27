@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FutureCraft 终日世界 - 主页 - 我的世界服务器</title>
+    <!-- JQuery -->
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <!-- FullPage.js -->
+    <link href="https://cdn.bootcss.com/fullPage.js/3.0.8/fullpage.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/fullPage.js/3.0.8/fullpage.min.js"></script>
+    <!-- BootStrap -->
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+<div id="FC-Main">
+    <div class="section sec-1">
+        <div class="title-container container">
+            <div class="display-1 center-block fc-title">FutureCraft</div>
+            <div class="lead">一个 Minecraft Bedrock Edition (基岩版) 服务器</div>
+            <br>
+            <a target="_blank"
+               href="minecraft://?addExternalServer=FutureCraft|play.futurecraft.site:19132" type="button" class="col-sm-6 col-md-2 btn btn-light"><span class="fa fa-cubes"></span>&nbsp;加入服务器
+            </a>
+        </div>
+        <a type="button" class="join-group btn btn-light"
+           href="https://shang.qq.com/wpa/qunwpa?idkey=012df7ff890d6a91849600f3f53bacca2ccbc81583f907c45572f8d55b642875"
+           target="_blank"><span class="fa fa-qq"></span>&nbsp;加入QQ群</a>
+    </div>
+    <div class="section">
+        <div class="slide pic3">
+            <!-- 商店系统 -->
+            <div class="card shadow-lg m-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">商店交易</h5>
+                    <p class="card-text">将采集到的物资转换成金币. 再用金币买些高大上的东西. Wow, amazing</p>
+                </div>
+            </div>
+        </div>
+        <div class="slide pic4">
+            <!-- 原版世界 -->
+            <div class="card shadow-lg m-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">原版世界</h5>
+                    <p class="card-text">采用 Minecraft 官方服务端,完美还原单机生存特性! 让你体会到原汁原味的世界!</p>
+                </div>
+            </div>
+        </div>
+        <div class="slide pic5">
+            <!-- 公会系统 -->
+            <div class="card shadow-lg m-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">公会系统</h5>
+                    <p class="card-text">加入自己喜欢的公会和小伙伴玩耍吧~ 也可以自己创建公会哦~</p>
+                </div>
+            </div>
+        </div>
+        <div class="slide pic6">
+            <!-- 自研插件 -->
+            <div class="card shadow-lg m-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">自研插件</h5>
+                    <p class="card-text">插件自研 (基于 Player 大佬的解决方案) 纯 C++ 编写,效率高速!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section sec-1">
+        <div class="title-container container">
+            <div class="display-1 center-block fc-title">FutureCraft</div>
+            <div class="lead">快来加入吧!</div>
+            <div class="lead">使用光影: 苦力怕光影</div>
+            <br>
+            <a target="_blank"
+               href="minecraft://?addExternalServer=FutureCraft|play.futurecraft.site:19132" type="button" class="col-sm-6 col-md-2 btn btn-light"><span class="fa fa-cubes"></span>&nbsp;加入服务器
+            </a>
+        </div>
+        <div class="col-12 footer">
+            Powered By FutureCraft &copy; 2020  All rights reserved.
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $(function () {
+        $('#FC-Main').fullpage({
+            controlArrows: true
+        });
+    });
+    setInterval(function(){
+        $.fn.fullpage.moveSlideRight();
+    }, 3000);
+    setTimeout(function () {
+        $('.fp-controlArrow').addClass('d-none d-md-block');
+    },10)
+
+</script>
+</html>
